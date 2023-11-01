@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela Periódica</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid white;
+            color: white;
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        td {
+            background-color: #555;
+        }
+
+        /* Personalize as cores das células aqui */
+        td:nth-child(2n) {
+            background-color: #777;
+        }
+
+        td:nth-child(3n) {
+            background-color: #999;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Símbolo</th>
+            <th>Número Atômico</th>
+        </tr>
+        <tr>
+            <td>Hidrogênio</td>
+            <td>H</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>He</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Lítio</td>
+            <td>Li</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Berílio</td>
+            <td>Be</td>
+            <td>4</td>
+        </tr>
+        <!-- Adicione os outros elementos da tabela periódica aqui -->
+    </table>
+</body>
+</html>
